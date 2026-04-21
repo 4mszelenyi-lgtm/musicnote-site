@@ -64,13 +64,16 @@ img {
 }
 
 .hero-header {
-  display: grid;
-  gap: 26px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
 }
 
 .brand-row {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
   gap: 18px;
 }
 
@@ -171,8 +174,6 @@ img {
   font-size: clamp(2rem, 3vw, 3.5rem);
   margin: 0 0 20px 0;
   color: var(--dark-text);
-  margin-left: 82px;
-
 }
 
 .features-intro {
@@ -181,7 +182,6 @@ img {
   line-height: 1.8;
   max-width: 620px;
   margin: 0;
-  margin-left: 82px;
 }
 
 .features-grid {
@@ -195,7 +195,6 @@ img {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  margin-left: 82px;
 }
 
 .features-title {
